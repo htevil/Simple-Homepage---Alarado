@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Simple Homepage - ALARADO</title>
+        <link rel="stylesheet" href="./index.css" type="text/css">
+        <link rel="stylesheet" href="./index2.css" type="text/css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="icon"><img src="img/alarado-icon-homepage.svg" alt="no image"></div>
+            <div class="menu_btn" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div class="nav" id="myNav">
+                <div class="nav_btn">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div id="nav_btn_1">About us</div>
+                    <div id="nav_btn_2">Product</div>
+                    <div id="nav_btn_3">Resource</div>
+                    <div id="nav_btn_4">Contact</div>
+                </div>
+                <div class="container">
+                <label class="switch">
+                    <span class="moon"></span>
+                    <span class="sun"></span>   
+                    <input type="checkbox" class="checkbox" id="checkbox">
+                    <span class="slider"></span>
+                </label>
+                </div>
+            </div>
+        </div>
+        <div class="Main">
+            <div class="container_1">
+                <h3>😎 SIMPLE WAY TO COMMUNICATE</h3>
+                <div><h1>Actions for Accessibility in Design</h1></div>
+                <div><p>The fastest way to build and deploy websites with resusable components.</p></div>
+                <div class="a">
+                    <button>GET STATED</button>
+                    <span>Get live demo</span>
+                </div>
+            </div>
+            <div class="container_2">
+                <img id="content_img" src="img\hero-image-simple-homepage.png" alt="no image">
+            </div>
+        </div>
+        <div class="footer">
+                <div><img src="img\Done_ring_round_fill.svg" alt="no image"><p>No credit card required</p></div>
+                <div><img src="img\Done_ring_round_fill.svg" alt="no image"><p>No software to install</p></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
